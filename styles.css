@@ -1,40 +1,48 @@
 html{
-    background-color: white;
+    /* box-sizing: border-box; */
 }
+
 body{
+    box-sizing: inherit;
     background-color: #e1d5bb;
-    border-style: solid;
-    border-color: #658AD6;
-    border-radius: 25px;
-    border-width: medium;
+    margin: 0%;
+    padding: 0%;
 }
+
 .logo{
-    width:100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     border-style: solid;
     border-color: #658AD6;
     border-radius: 25px;
     margin-left: 10px;
 }
+
 header{
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
-    height:120px;
+    height:15%;
     align-items: center;
 }
+
 .buttons{
     margin-left: auto;
     display: flex;
-    height: 100px;
+    gap: 1%;
+    height: 10%;
     color:#658AD6;
     align-items: center;
 }
+
 .buttons button{
+    cursor: pointer;
     border-radius: 25px;
-    height:30px;
-    width:100px;
+    height:2em;
+    width:6em;
     font-size: medium;
 }
+
 .buttons #user{
     font-size: larger;
     border-style: none;
@@ -43,6 +51,107 @@ header{
     height:50px;
     font-size: 40px;
 }
+
 #bigger{
-    width:130px;
+    width:9em;
+}
+
+.hero_section_container{
+    display:flex;
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text_box_hero_section{
+    width:30%;
+    height:300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #658AD6;
+}
+
+.video_box_hero_section{
+    width:30%;
+    height:300px;
+    border-radius: 25px;
+}
+
+.text_box_hero_section h3, p{
+    text-align: center;
+}
+
+.text_box_hero_section button{
+    width:100px;
+    height:50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color:#658AD6;
+}
+
+.text_box_hero_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_box_hero_section iframe{
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+}
+
+.triple{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.triple_box{
+    font-size: 1.2em;
+    width:15em;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    height:auto;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #658AD6;
+}
+.media_container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.media_container iframe{
+    width:70%;
+    height: 35em;
+    border-radius: 20px;
+}
+
+.connect{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+.connect a{
+    width:70%;
+    height: 60px;
+}
+.connect button{
+    width:100%;
+    color:#ffffff;
+    height:100%;
+    font-size:large;
+    border-style: none;
+    background-color: #658AD6;
+    border-radius: 20px;
+}
+button p{
+    margin:0;
+    font-size: 1.2em;
 }
