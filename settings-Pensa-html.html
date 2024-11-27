@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PensaClub Settings Page</title>
+    <link rel="stylesheet" href="Settings-Pensa.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PensaClub</h1>
+            <input type="text" placeholder="Search resources..." class="search-bar">
+            <div class="icons">
+                <span class="icon edit"></span>
+                <span class="icon notification"></span>
+                <span class="icon profile"></span>
+            </div>
+        </header>
+        <div class="content">
+            <aside>
+                <ul>
+                    <li> Home</li>
+                    <li> Stats</li>
+                    <li> Tools</li>
+                    <li> Learn</li>
+                    <li> Community</li>
+                    <li> Add</li>
+                </ul>
+            </aside>
+            <main>
+                <div class="user-settings">
+                    <h2>User Settings</h2>
+                    <form>
+                        <h3>Personal Info</h3>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="email" placeholder="Current Email">
+                        <select>
+                            <option>Current Club</option>
+                        </select>
+                       
+                        <div class="actions">
+                            <button type="submit">Save</button>
+                            <button type="button">Cancel</button>
+                        </div>
+                    </form>
+                    <button class="danger">Delete Account</button>
+                </div>
+                <div class="notifications">
+                    <h2>Notifications</h2>
+                    <label>
+                        Weekly Reports
+                        <input type="checkbox">
+                    </label>
+                </div>
+                <div class="billing">
+                    <h2>Billing</h2>
+                    <p>Please, update your billing info.</p>
+                    <form>
+                        <input type="text" placeholder="Token Card Number">
+                        <div class="card-details">
+                            <input type="text" placeholder="Token Expiration Date">
+                            <input type="text" placeholder="CVC">
+                        </div>
+                        <button type="submit">Update Plan</button>
+                    </form>
+                    <button class="danger">Cancel Plan</button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
