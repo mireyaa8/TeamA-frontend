@@ -1,0 +1,18 @@
+header{
+    background-color: grey;
+}
+.body{
+    display: flex;
+    align-items: center;
+    font-size: Arial;
+}
+.Card{
+    grid-area: 20px;
+
+}
+.Container{
+ display: grid;
+ justify-content: space-evenly;
+ text-align: center;
+ pad: 10px;
+}
